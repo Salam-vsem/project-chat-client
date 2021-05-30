@@ -1,0 +1,77 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/axios": "^0.14.0",
+    "@types/classnames": "^2.3.1",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-audio-player": "^0.11.0",
+    "@types/react-color": "^3.0.4",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-lazy-load-image-component": "^1.5.1",
+    "@types/react-linkify": "^1.0.0",
+    "@types/react-router": "^5.1.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-typing-animation": "^1.6.2",
+    "@types/socket.io-client": "^1.4.32",
+    "@types/styled-components": "^5.1.7",
+    "axios": "^0.20.0",
+    "browser-image-size": "^1.1.0",
+    "classnames": "^2.3.1",
+    "craco": "^0.0.3",
+    "craco-alias": "^2.2.0",
+    "dayjs": "^1.10.4",
+    "emoji-picker-react": "^3.4.2",
+    "eventemitter-ts": "^0.0.4",
+    "js-file-download": "^0.4.12",
+    "konva": "^7.1.0",
+    "mic-recorder-to-mp3": "^2.2.2",
+    "mobx": "^5.15.4",
+    "mobx-react-lite": "^2.0.6",
+    "react": "^16.13.1",
+    "react-audio-player": "^0.13.0",
+    "react-color": "^2.18.1",
+    "react-dom": "^16.13.1",
+    "react-konva": "^16.13.0-6",
+    "react-lazy-load-image-component": "^1.5.1",
+    "react-linkify": "^1.0.0-alpha",
+    "react-player": "^2.9.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-typing-animation": "^1.6.2",
+    "socket.io-client": "^2.3.0",
+    "styled-components": "^5.2.1",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:4000"
+}
