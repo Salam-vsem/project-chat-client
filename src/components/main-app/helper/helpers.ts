@@ -25,6 +25,7 @@ export const downloadFile = async (url: string, fileName: string, onDownloadProg
     responseType: "blob"
   })
   const data = res.data;
+  fileDownload(data, fileName)
 }
 
 export const isFileList = (data: Object): data is FileList => 'item' in data

@@ -31,6 +31,9 @@ export class Room {
 
   @action
   updateUsersAmount(roomId: number, usersAmount: number) {
+    if(!this._rooms[roomId.toString()]) {
+      return
+    }
     this._rooms[roomId.toString()].usersAmount = usersAmount;
   }
 }
