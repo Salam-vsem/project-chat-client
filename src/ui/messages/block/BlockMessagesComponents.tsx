@@ -16,7 +16,8 @@ const TextMessageWrap = styled.div`
   align-self: flex-start;
   display: inline-flex;
   align-items: flex-end;
-  max-width: 60%;
+  max-width: 40vw;
+  padding: 5px;
 
   &.own {
     border-radius: ${props => formMessageBorder(props.theme.personal.borderRadius, true)};
@@ -25,7 +26,7 @@ const TextMessageWrap = styled.div`
   }
 
   @media screen and (max-width: 800px) {
-    max-width: 85%;
+    max-width: 80vw;
   }
 `;
 
@@ -49,7 +50,7 @@ const TextMessageDateContainer = styled.div`
   height: 100%;
   text-align: end;
   margin-right: 8px;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   &.own {
     margin-right: 4px;
     margin-bottom: 2px;
@@ -83,7 +84,7 @@ const MessageImg = styled(LazyLoadImage)`
 `;
 
 const MessageTextWrap = styled.span`
-  padding: 12px 4px 12px 12px;
+  padding: 5px 10px 5px 5px;
   font-size: ${props => (props.theme.static.font.default * props.theme.personal.fontScale) + 'px'};
 `;
 
@@ -91,7 +92,7 @@ const MessageTextWrap = styled.span`
 const DocumentsMessageWrap = styled(TextMessageWrap)``;
 
 const DocumentIconContainer = styled.div`
-  padding: 12px 4px 12px 12px;
+  padding: 5px 10px 5px 5px;
   display: flex;
   align-items: center;
 `;

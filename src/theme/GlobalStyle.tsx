@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: #1A1B1D;
     color: #EEEEEE;
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: Helvetica, Arial, Sans-Serif;
   }
 `;
 
