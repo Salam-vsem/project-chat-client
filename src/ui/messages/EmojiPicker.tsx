@@ -29,7 +29,7 @@ const pickerStyle = {
   width: '250px',
   position: 'absolute',
   inset: 'auto -15px 65px auto',
-  // right: '0px',
+  zIndex: '9999',
   borderRadius: '4px',
 }
 
